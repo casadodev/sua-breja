@@ -1,5 +1,6 @@
 {
   "name": "suabreja",
+  "homepage": "http://suabreja.com.br/build/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
