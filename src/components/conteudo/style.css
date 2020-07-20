@@ -1,0 +1,14 @@
+.secao-home {
+  height: 400px !important;
+  width: 100%;
+  overflow: hidden;
+}
+
+.secao-resumo {
+  min-height: 330px;
+}
+
+.secao-email {
+  height: 150px;
+  color: #fff;
+}

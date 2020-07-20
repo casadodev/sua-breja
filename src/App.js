@@ -1,16 +1,15 @@
 import React from "react";
-import "./App.css";
 import Topo from "./components/topo";
-import BannerHome from "./components/banner/bannerhome";
+import Conteudo from "./components/conteudo";
 import Rodape from "./components/rodape";
 
 function App() {
   return (
-    <div className="App">
+    <section>
       <Topo />
-      <BannerHome />
+      <Conteudo />
       <Rodape />
-    </div>
+    </section>
   );
 }
 

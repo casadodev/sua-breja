@@ -1,5 +1,7 @@
 import React from "react";
 
+import logo from "../../images/icon_logo_beer.png";
+import "./style.css";
 import Menu from "../menu";
 
 function Topo() {
@@ -9,7 +11,7 @@ function Topo() {
         <div className="container">
           <div className="row justify-content-between">
             <div className="col-3 alt-150 logo">
-              <img src="/images/icon_logo_beer.png" alt="Sua Breja" srcset="" />
+              <img src={logo} alt="Sua Breja" srcset="" />
             </div>
             <div className="col-8 alt-150">
               <h1 style={{ color: "#fff" }}>
